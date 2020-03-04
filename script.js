@@ -30,7 +30,7 @@ const colorDot = (num) => {
 
 const moveImage = (num) => {
   const picsContainer = document.getElementById('pics-container');
-  picsContainer.style.right = `${(num - 1) * 500}px`;
+  picsContainer.style.right = `-${(num - 1) * 500}px`;
 };
 
 const picChangeAction = (num) => {
